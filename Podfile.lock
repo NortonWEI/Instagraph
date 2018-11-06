@@ -1,0 +1,205 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - Firebase/Auth (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (= 5.0.4)
+  - Firebase/Core (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.2.0)
+  - Firebase/CoreOnly (5.10.0):
+    - FirebaseCore (= 5.1.5)
+  - Firebase/Database (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.3)
+  - Firebase/MLVision (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMLVision (= 0.12.0)
+  - Firebase/MLVisionLabelModel (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseMLVisionLabelModel (= 0.12.0)
+  - Firebase/Storage (5.10.0):
+    - Firebase/CoreOnly
+    - FirebaseStorage (= 3.0.2)
+  - FirebaseAnalytics (5.2.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.2)
+    - GoogleAppMeasurement (~> 5.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAuth (5.0.4):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (5.1.5):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseDatabase (5.0.3):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.2.2):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMLCommon (0.12.0):
+    - FirebaseCore (= 5.1.5)
+  - FirebaseMLVision (0.12.0):
+    - FirebaseCore (= 5.1.5)
+    - FirebaseMLCommon (~> 0.12)
+    - GoogleAPIClientForREST/Core (~> 1.3)
+    - GoogleAPIClientForREST/Vision (~> 1.3)
+    - GoogleMobileVision/Detector (~> 1.4)
+  - FirebaseMLVisionLabelModel (0.12.0):
+    - GoogleMobileVision/LabelDetector (~> 1.4)
+  - FirebaseStorage (3.0.2):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 5.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleAPIClientForREST/Core (1.3.6):
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAPIClientForREST/Vision (1.3.6):
+    - GoogleAPIClientForREST/Core
+    - GTMSessionFetcher (>= 1.1.7)
+  - GoogleAppMeasurement (5.2.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleMobileVision/Detector (1.4.1):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.1)
+  - GoogleMobileVision/LabelDetector (1.4.1):
+    - GoogleMobileVision/Detector (~> 1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.3):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.3)
+  - GoogleUtilities/Logger (5.3.3):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.3):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.3)"
+  - GoogleUtilities/Reachability (5.3.3):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.3):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher (1.2.0):
+    - GTMSessionFetcher/Full (= 1.2.0)
+  - GTMSessionFetcher/Core (1.2.0)
+  - GTMSessionFetcher/Full (1.2.0):
+    - GTMSessionFetcher/Core (= 1.2.0)
+  - leveldb-library (1.20)
+  - MultiPeer (0.0.8)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - PhotoEditorSDK (8.6.2)
+  - Protobuf (3.6.1)
+  - PryntTrimmerView (3.0.0)
+  - SnapKit (4.0.1)
+  - SteviaLayout (4.4.0)
+  - "UITextView+Placeholder (1.2.1)"
+  - YPImagePicker (3.5.2):
+    - PryntTrimmerView (~> 3.0.0)
+    - SteviaLayout (~> 4.4.0)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 3.3)
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/MLVision
+  - Firebase/MLVisionLabelModel
+  - Firebase/Storage
+  - MultiPeer
+  - PhotoEditorSDK (~> 8.6)
+  - SnapKit (~> 4.0.0)
+  - "UITextView+Placeholder"
+  - YPImagePicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMLCommon
+    - FirebaseMLVision
+    - FirebaseMLVisionLabelModel
+    - FirebaseStorage
+    - GoogleAPIClientForREST
+    - GoogleAppMeasurement
+    - GoogleMobileVision
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GTMSessionFetcher
+    - leveldb-library
+    - MultiPeer
+    - nanopb
+    - PhotoEditorSDK
+    - Protobuf
+    - PryntTrimmerView
+    - SnapKit
+    - SteviaLayout
+    - "UITextView+Placeholder"
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  Firebase: 6691d47562a780c26281ce8464518faafc90c610
+  FirebaseAnalytics: 831f1f127f4a75698e9875a87bf7e2668730d953
+  FirebaseAuth: 504b198ceb3472dca5c65bb95544ea44cfc9439e
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: c6079de64c1a87000e52e9b408dddcadc901177f
+  FirebaseDatabase: e2bcbc106adc4b11a2da3ec2eb63c0c4a44f2f54
+  FirebaseInstanceID: 78ba376fcd5b94c001f9999b2cbd3d1f1e56e78d
+  FirebaseMLCommon: ca1a9b1e157d38c915b1862da6dd69cf87b30d92
+  FirebaseMLVision: 0387fde95d33720be50572dc86f0f21b55be2010
+  FirebaseMLVisionLabelModel: 926c57dfa63254ea22e005d39b795b560ab1eb30
+  FirebaseStorage: fd82e5e5c474897e19972b34b22ac0f589dce04e
+  GoogleAPIClientForREST: 5b95b38a0fa912e8ac7bdcf9e124578ef1a61bf2
+  GoogleAppMeasurement: 2b3a023a61239c8d002e6e4fcf4abce8eddce0e0
+  GoogleMobileVision: bedef12c0924e948fc09b8f1b38c5fe1a3594b6f
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GoogleUtilities: 8208aee3e97a1ae93d44c57e96c476a5a3b03f0a
+  GTMSessionFetcher: 0c4baf0a73acd0041bf9f71ea018deedab5ea84e
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  MultiPeer: 64cb9acb798e9178b9374e1475799d09dc55e5b6
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  PhotoEditorSDK: 5b0c61396da2a100b73fa2436686cabaefef28be
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  PryntTrimmerView: 53ac64053c7ce63cb3e27f54090f52da0734891d
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SteviaLayout: dd74d1abd127bbf0ce346ac9430441684fe427d0
+  "UITextView+Placeholder": 0c3efd97f37ea64bde7f34cc6e90fe02e87b3909
+  YPImagePicker: 26d5bf7bfe1cffd1c5eedea3ac60422b314e2a42
+
+PODFILE CHECKSUM: bc3d5fb678039cb4e1ad11c96ba43bab314c2703
+
+COCOAPODS: 1.6.0.beta.1
